@@ -1,0 +1,61 @@
+/* AboutUs.module.css */
+.container {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    width: 100vw;
+    padding-left: 2%;
+}
+
+
+
+.story,
+.menu {
+
+    padding: 2% 5%;
+    overflow-wrap: break-word;
+    /* This property allows the line to break within words */
+    word-wrap: break-word;
+    /* Fallback for older browsers */
+    max-width: 70vw;
+    /* Set your desired maximum width */
+
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
+.gallery h2,
+h4,
+p {
+    margin: 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+
+}
+
+.col {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col img {
+    width: 95%;
+    height: auto;
+}
+
+@media (max-width:767px) {
+    .col {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

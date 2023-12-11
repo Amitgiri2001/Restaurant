@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(73, 16, 139, 0.8);
+    /* background-color: ; */
+    font-weight: 500;
+    /* Fixed positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.first,
+.third {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.second {
+    width: 10%;
+    height: 100%;
+}
+
+.second img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Larger screen styles */
+@media (min-width: 768px) {
+    .container {
+        height: 6vh;
+    }
+
+    .first {
+        width: 40vw;
+        justify-content: flex-start;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third {
+        width: 40vw;
+        justify-content: flex-end;
+    }
+}
+
+/* Smaller screen styles */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding-bottom: 2%;
+
+    }
+
+    .first,
+    .third {
+        /* width: 100%; */
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 15%;
+    }
+
+    .first {
+        padding-top: 10%;
+    }
+
+    .second {
+        width: 32%;
+        position: absolute;
+        top: 22%;
+        right: 6%;
+    }
+
+    .toggleButton {
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
+        border: 0px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+
+    .toggleButton img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .logoOnly {
+        padding: 3%;
+    }
+
+    .logoOnly img {
+        width: 40%;
+        height: auto;
+    }
+
+    .container p {
+        margin: 5% 0%;
+        font-weight: 400;
+    }
+}

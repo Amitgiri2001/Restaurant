@@ -1,0 +1,69 @@
+.teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+    position: relative;
+}
+
+.memberContainer {
+    width: 30%;
+    /* For big screens, 3 members per row */
+    margin: 15px;
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: block;
+    z-index: 2;
+
+}
+
+@media (max-width: 768px) {
+    .memberContainer {
+        width: 48%;
+        /* For small screens, 2 members per row */
+    }
+
+    .memberImage {
+        height: 35vh;
+    }
+}
+
+@media (max-width: 408px) {
+    .memberContainer {
+        width: 78%;
+        /* For small screens, 2 members per row */
+    }
+}
+
+.memberImage {
+    width: 100%;
+    height: 45vh;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.memberInfo {
+    text-align: center;
+}
+
+.memberName {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.memberRole {
+    font-style: italic;
+    color: #777;
+}
