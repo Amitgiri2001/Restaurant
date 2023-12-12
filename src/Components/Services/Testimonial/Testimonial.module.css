@@ -90,6 +90,7 @@
 
     .left {
         background-color: rgba(0, 0, 0, 0.6);
+        width: 65%;
 
     }
 
@@ -103,6 +104,7 @@
     .testimonial {
         font-size: 100%;
     }
+
 
     .left p {
         font-size: 80%;

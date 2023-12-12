@@ -6,6 +6,7 @@ import aboutBackground from '../../images/about_back.jpg';
 import img1 from "../../images/img7.jpeg";
 import img0 from "../../images/img0.avif";
 import img2 from "../../images/setting.jpg"
+import ServiceCard from '../Services/ServiceCard';
 
 
 const AboutUs = () => {
@@ -33,21 +34,10 @@ const AboutUs = () => {
             <section className={styles.gallery}>
                 <h2>Discover Our Atmosphere</h2>
                 <div className={styles.imageContainer}>
-                    <div className={styles.col}>
-                        <img src={img0} alt="saison" />
-                        <h4>Saison Winery</h4>
-                        <p>Los Gatos,CA</p>
-                    </div>
-                    <div className={styles.col}>
-                        <img src={img1} alt="saison" />
-                        <h4>Saison SnokeHouse</h4>
-                        <p>San Francisco,CA</p>
-                    </div>
-                    <div className={styles.col}>
-                        <img src={img2} alt="saison" />
-                        <h4>Saison Hospitality</h4>
-                        <p>San Francisco,CA</p>
-                    </div>
+                    <ServiceCard image={img0} text="Saison Winery" caption="Los Gatos,CA" />
+                    <ServiceCard image={img1} text="Saison SnokeHouse" caption="San Francisco,CA" />
+                    <ServiceCard image={img2} text="Saison Hospitality" caption="San Francisco,CA" />
+
 
                 </div>
             </section>

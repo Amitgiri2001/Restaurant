@@ -7,15 +7,16 @@ const ModalComp = (props) => {
     const styles = {
         border: "2px solid blue",
         borderRadius: "12px",
-        maxWidth: "90vw",
+        maxWidth: "80vw",
         height: "auto",
         maxHeight: "80vh",
         marginTop: "2%",
+        marginRight: "4%"
 
     }
     const closeBtn = {
         // paddingTop: "4%",
-        marginTop: "5%",
+        marginTop: "3%",
     }
     const [open, setOpen] = useState(false);
 

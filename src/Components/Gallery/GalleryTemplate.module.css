@@ -15,8 +15,10 @@
 
 .btn {
     position: absolute;
-    top: 46%;
-    left: 46%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: ; */
     border: 1px solid black;
     border-radius: 7px;
     display: block;
@@ -102,6 +104,7 @@
     }
 
 
+
 }
 
 @media (max-width: 350px) {
@@ -120,6 +123,8 @@
     .bottom {
         height: 22vh;
     }
+
+
 
 
 }

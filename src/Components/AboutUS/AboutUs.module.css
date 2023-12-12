@@ -1,10 +1,6 @@
 /* AboutUs.module.css */
 .container {
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* padding: 20px; */
     width: 100vw;
-    padding-left: 2%;
 }
 
 
@@ -34,28 +30,8 @@ p {
 
 .imageContainer {
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
     flex-wrap: wrap;
     padding-bottom: 3%;
 
-}
-
-.col {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-}
-
-.col img {
-    width: 95%;
-    height: auto;
-}
-
-@media (max-width:767px) {
-    .col {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-    }
 }

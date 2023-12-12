@@ -31,7 +31,7 @@ function HomeSlider() {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+            // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={handleSlideChange}
             autoplay={{
