@@ -6,14 +6,14 @@ import Gallery from "./Components/Gallery/Gallery";
 import Team from "./Components/Team/Team";
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import Contact from './Components/Contact/Contact';
 import AboutUs from './Components/AboutUS/AboutUs';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <NavFooter />,

@@ -22,6 +22,10 @@
 
 }
 
+.arrow:hover {
+    cursor: pointer;
+}
+
 .heading {
     text-align: center;
     /* padding: 10%; */

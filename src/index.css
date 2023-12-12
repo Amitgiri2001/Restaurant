@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* SCROLL BAR */
+/* Apply styles to the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 0px;
+  /* Set the width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(0deg, #b90cdb, #5b13d1);
+}
+
+/* Handle on drag */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: linear-gradient(0deg, #5b13d1, #b90cdb);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+
+  /* Set the background of the track */
+}
+
+
+
+::-webkit-scrollbar-bottom {
+  display: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
